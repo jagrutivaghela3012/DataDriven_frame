@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[No of rows are::10]]>
+    </line>
+    <line>
+      <![CDATA[Login success::  dashboard      http://orangehrm.qedgetech.com/symfony/web/index.php/dashboard]]>
+    </line>
+    <line>
+      <![CDATA[Invalid credentials    dashboard    http://orangehrm.qedgetech.com/symfony/web/index.php/auth/validateCredentials]]>
+    </line>
+    <line>
+      <![CDATA[Login success::  dashboard      http://orangehrm.qedgetech.com/symfony/web/index.php/dashboard]]>
+    </line>
+    <line>
+      <![CDATA[Invalid credentials    dashboard    http://orangehrm.qedgetech.com/symfony/web/index.php/auth/validateCredentials]]>
+    </line>
+    <line>
+      <![CDATA[Login success::  dashboard      http://orangehrm.qedgetech.com/symfony/web/index.php/dashboard]]>
+    </line>
+    <line>
+      <![CDATA[Username cannot be empty    dashboard    http://orangehrm.qedgetech.com/symfony/web/index.php/auth/login]]>
+    </line>
+    <line>
+      <![CDATA[Login success::  dashboard      http://orangehrm.qedgetech.com/symfony/web/index.php/dashboard]]>
+    </line>
+    <line>
+      <![CDATA[Username cannot be empty    dashboard    http://orangehrm.qedgetech.com/symfony/web/index.php/auth/login]]>
+    </line>
+    <line>
+      <![CDATA[Login success::  dashboard      http://orangehrm.qedgetech.com/symfony/web/index.php/dashboard]]>
+    </line>
+    <line>
+      <![CDATA[Password cannot be empty    dashboard    http://orangehrm.qedgetech.com/symfony/web/index.php/auth/login]]>
+    </line>
+    <line>
+      <![CDATA[Add Employee Successfully::    19738     19738]]>
+    </line>
+    <line>
+      <![CDATA[Result is::true]]>
+    </line>
+    <line>
+      <![CDATA[Add Employee Successfully::    19739     19739]]>
+    </line>
+    <line>
+      <![CDATA[Add Employee Successfully::    19740     19740]]>
+    </line>
+    <line>
+      <![CDATA[Add Employee Successfully::    19741     19741]]>
+    </line>
+    <line>
+      <![CDATA[Add Employee Successfully::    19742     19742]]>
+    </line>
+    <line>
+      <![CDATA[Add Employee Successfully::    19743     19743]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2023-04-16T18:41:34 IST" name="Suite" finished-at="2023-04-16T18:42:43 IST" duration-ms="69550">
+    <groups>
+    </groups>
+    <test started-at="2023-04-16T18:41:34 IST" name="Test1" finished-at="2023-04-16T18:42:07 IST" duration-ms="33225">
+      <class name="driverFactory.Driverscript">
+        <test-method is-config="true" signature="setup()[pri:0, instance:driverFactory.Driverscript@19e4653c]" started-at="2023-04-16T18:41:34 IST" name="setup" finished-at="2023-04-16T18:41:39 IST" duration-ms="5461" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="startTest()[pri:0, instance:driverFactory.Driverscript@19e4653c]" started-at="2023-04-16T18:41:39 IST" name="startTest" finished-at="2023-04-16T18:42:07 IST" duration-ms="27246" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[No of rows are::10]]>
+            </line>
+            <line>
+              <![CDATA[Login success::  dashboard      http://orangehrm.qedgetech.com/symfony/web/index.php/dashboard]]>
+            </line>
+            <line>
+              <![CDATA[Invalid credentials    dashboard    http://orangehrm.qedgetech.com/symfony/web/index.php/auth/validateCredentials]]>
+            </line>
+            <line>
+              <![CDATA[Login success::  dashboard      http://orangehrm.qedgetech.com/symfony/web/index.php/dashboard]]>
+            </line>
+            <line>
+              <![CDATA[Invalid credentials    dashboard    http://orangehrm.qedgetech.com/symfony/web/index.php/auth/validateCredentials]]>
+            </line>
+            <line>
+              <![CDATA[Login success::  dashboard      http://orangehrm.qedgetech.com/symfony/web/index.php/dashboard]]>
+            </line>
+            <line>
+              <![CDATA[Username cannot be empty    dashboard    http://orangehrm.qedgetech.com/symfony/web/index.php/auth/login]]>
+            </line>
+            <line>
+              <![CDATA[Login success::  dashboard      http://orangehrm.qedgetech.com/symfony/web/index.php/dashboard]]>
+            </line>
+            <line>
+              <![CDATA[Username cannot be empty    dashboard    http://orangehrm.qedgetech.com/symfony/web/index.php/auth/login]]>
+            </line>
+            <line>
+              <![CDATA[Login success::  dashboard      http://orangehrm.qedgetech.com/symfony/web/index.php/dashboard]]>
+            </line>
+            <line>
+              <![CDATA[Password cannot be empty    dashboard    http://orangehrm.qedgetech.com/symfony/web/index.php/auth/login]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- startTest -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:driverFactory.Driverscript@19e4653c]" started-at="2023-04-16T18:42:07 IST" name="teardown" finished-at="2023-04-16T18:42:07 IST" duration-ms="432" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- driverFactory.Driverscript -->
+    </test> <!-- Test1 -->
+    <test started-at="2023-04-16T18:42:07 IST" name="Test2" finished-at="2023-04-16T18:42:21 IST" duration-ms="14263">
+      <class name="driverFactory.TestScript">
+        <test-method is-config="true" signature="setup()[pri:0, instance:driverFactory.TestScript@183ec003]" started-at="2023-04-16T18:42:07 IST" name="setup" finished-at="2023-04-16T18:42:17 IST" duration-ms="9704" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="StartTest()[pri:0, instance:driverFactory.TestScript@183ec003]" started-at="2023-04-16T18:42:17 IST" name="StartTest" finished-at="2023-04-16T18:42:20 IST" duration-ms="3489" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Add Employee Successfully::    19738     19738]]>
+            </line>
+            <line>
+              <![CDATA[Result is::true]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- StartTest -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:driverFactory.TestScript@183ec003]" started-at="2023-04-16T18:42:20 IST" name="teardown" finished-at="2023-04-16T18:42:21 IST" duration-ms="1062" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- driverFactory.TestScript -->
+    </test> <!-- Test2 -->
+    <test started-at="2023-04-16T18:42:21 IST" name="Test3" finished-at="2023-04-16T18:42:43 IST" duration-ms="22016">
+      <class name="driverFactory.TestScript1">
+        <test-method is-config="true" signature="setup()[pri:0, instance:driverFactory.TestScript1@4d1c005e]" started-at="2023-04-16T18:42:21 IST" name="setup" finished-at="2023-04-16T18:42:27 IST" duration-ms="5215" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="StartTest()[pri:0, instance:driverFactory.TestScript1@4d1c005e]" started-at="2023-04-16T18:42:27 IST" name="StartTest" finished-at="2023-04-16T18:42:42 IST" duration-ms="15797" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Add Employee Successfully::    19739     19739]]>
+            </line>
+            <line>
+              <![CDATA[Add Employee Successfully::    19740     19740]]>
+            </line>
+            <line>
+              <![CDATA[Add Employee Successfully::    19741     19741]]>
+            </line>
+            <line>
+              <![CDATA[Add Employee Successfully::    19742     19742]]>
+            </line>
+            <line>
+              <![CDATA[Add Employee Successfully::    19743     19743]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- StartTest -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:driverFactory.TestScript1@4d1c005e]" started-at="2023-04-16T18:42:42 IST" name="teardown" finished-at="2023-04-16T18:42:43 IST" duration-ms="997" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- driverFactory.TestScript1 -->
+    </test> <!-- Test3 -->
+  </suite> <!-- Suite -->
+</testng-results>
